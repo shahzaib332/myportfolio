@@ -14,7 +14,7 @@ const Work = () => {
     // data
     const data=Data;
   return (
-    <div name='work' className='bg-[#0a192f] text-gray-300 w-full  border-2 max-h-fit 	'>
+    <div name='work' className='bg-[#0a192f] text-gray-300 w-full   max-h-fit lg:h-screen	'>
         <div className='max-w-[1000px] mx-auto h-full w-full flex flex-col justify-center p-4'>
 <div className='pb-8 text-left mt-40'>
     <p className='text-4xl inline border-b-4 border-pink-600 font-bold  '>Work</p>
@@ -40,10 +40,10 @@ const Work = () => {
         </span>
         {/* button */}
         <div className='pt-8'>
-            <a href={item.github}>
+            <a href={item.live} target="_blank">
                 <button className='text-center rounded-lg bg-white text-gray-700 px-4 py-3 m-2 font-bold text-lg'>Demo</button>
             </a>
-            <a href={item.live}>
+            <a href={item.github} target="_blank">
                 <button className='text-center rounded-lg bg-white text-gray-700 px-4 py-3 m-2 font-bold text-lg'>Code</button>
             </a>
         </div>

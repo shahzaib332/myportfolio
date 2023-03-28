@@ -4,7 +4,7 @@ import{AiOutlineMobile} from 'react-icons/ai'
 
 export const Services = () => {
   return (
-    <div name='services' className='w-full   text-gray-300 bg-[#0a192f] border-2 mt-20 max-h-fit	'>
+    <div name='services' className='w-full   text-gray-300 bg-[#0a192f]  mt-20 max-h-fit 	'>
         <div className=''>
         <div className='max-w-[1000px] mx-auto  w-full  flex flex-col  justify-center p-4 '>
         <div className='text-left my-10 mt-40'>
